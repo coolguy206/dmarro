@@ -1,0 +1,1912 @@
+﻿/*
+
+
+
+Theme Name: Dmarro Theme
+
+
+
+Description: D:marro theme for WordPress.
+
+
+
+Author: DavidTProductions
+
+
+
+Author URI: http://davidtproductions.com/
+
+
+
+Version: 1.2
+
+
+
+Tags: 
+
+
+
+
+
+
+
+License:
+
+
+
+License URI:
+
+
+
+
+
+
+
+General comments (optional).
+
+
+
+*/
+
+
+
+
+
+
+
+*{
+
+
+
+	margin: 0px;
+
+
+
+	padding: 0px;	
+
+
+
+}
+
+
+
+
+
+
+
+body {
+
+
+
+	font-size: 100%;
+
+
+
+	line-height: 150%;
+
+
+
+	background-color: #18e99f;	
+
+
+
+	font-family: "arial";
+
+
+
+}
+
+
+
+a {
+
+
+
+
+
+
+
+	color: #000;
+
+
+
+	text-decoration: none;
+
+
+
+	font-weight: bold;
+
+
+
+}
+
+
+
+a:hover {
+
+
+
+	color:#cc0000;
+
+
+
+}
+
+
+
+h1 {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 2em;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+h2 {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 1.5em;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+h3 {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 1.125em;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+p {
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+iframe {
+
+
+
+	margin-bottom: 20px;
+
+
+
+}
+
+
+
+input, textarea {
+
+
+
+	border: 1px solid #000;
+
+
+
+	padding: 5px;
+
+
+
+	font-size: 1em;
+
+
+
+	width: 430px;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+textarea {
+
+
+
+	min-height: 150px;
+
+
+
+}
+
+
+
+img, embed, object, video, iframe {
+
+
+
+max-width: 100%;
+
+
+
+}
+
+
+
+.wrapper {
+
+
+
+	max-width: 980px;
+
+
+
+	margin-right: auto;
+
+
+
+	margin-left: auto;
+
+
+
+	padding: 20px;	
+
+
+
+}
+
+
+
+a img {
+
+
+
+	border: none;
+
+
+
+}
+
+.margins {
+
+	margin-right: 20px;
+
+}
+
+.responsive {
+
+	display: none;
+
+}
+
+/*----------------WP_PAGENAVI----------------------*/
+
+
+
+.wp-pagenavi {
+
+
+
+	margin-top: 10px;
+
+
+
+	
+
+
+
+}
+
+
+
+.pages {
+
+
+
+	margin-right: 20px;
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 24px;
+
+
+
+}
+
+
+
+.current, .smaller, .larger, .previouspostslink, .nextpostslink {
+
+
+
+	border: 1px solid #000;
+
+
+
+	padding: 5px;
+
+
+
+	margin-right: 10px;
+
+
+
+}
+
+
+
+.current {
+
+
+
+	background-color: #000;
+
+
+
+	color: #fff;
+
+
+
+}
+
+
+
+.smaller:hover, .larger:hover, .previouspostslink:hover, .nextpostslink:hover {
+
+
+
+	background-color: #000;
+
+
+
+	color: #fff;
+
+
+
+}
+
+
+
+/*----------------HEADER----------------------*/
+
+
+
+header {
+
+
+
+	background-color: #6ECFF6;
+
+
+
+	min-height: 100px;
+
+
+
+	padding: 10px;
+
+
+
+}
+
+
+
+header img {
+
+
+
+	border: none;
+
+
+
+}
+
+
+
+.logo {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 5em;
+
+
+
+	position: relative;
+
+
+
+	top: 20px;
+
+
+
+}
+
+
+
+header form {
+
+
+
+	float: right;
+
+
+
+}
+
+
+
+header input {
+
+
+
+	margin-right: 20px;
+
+
+
+	width: 220px;
+
+
+
+	padding: 5px;
+
+
+
+	border: 1px solid #000;
+
+
+
+}
+
+
+
+header input[type=submit] {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 1.5em;
+
+
+
+	border: none;
+
+
+
+	background: none;
+
+
+
+	width: auto;
+
+
+
+}
+
+
+
+header input[type=submit]:hover {
+
+
+
+	cursor: pointer;
+
+
+
+	color:#cc0000;
+
+
+
+}
+
+
+
+nav,footer,header {
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+nav {
+
+
+
+	padding: 10px 0px 10px 0px;
+
+
+
+}
+
+
+
+nav ul {
+
+
+
+	list-style-type: none;
+
+
+
+}
+
+
+
+nav li {
+
+
+
+	float: left;
+
+
+
+	margin-right: 20px;
+
+
+
+	width: 220px;
+
+
+
+	text-align: center;
+
+
+
+}
+
+
+
+nav ul ul {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+nav a {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	text-decoration: none;
+
+
+
+	font-size: 2em;
+
+
+
+	display: block;
+
+
+
+	line-height: 50%;
+
+
+
+	padding: 10px;
+
+
+
+}
+
+
+
+nav li:hover {
+
+
+
+	background-image:url('images/nav-bg-hover.png');
+
+
+
+	background-position: center center;
+
+
+
+}
+
+
+
+.current-menu-item, .current-menu-parent, .current-menu-ancestor {
+
+
+
+	background-image:url('images/nav-bg-hover.png');
+
+
+
+	background-position: center center;
+
+
+
+}
+
+
+
+.current-menu-item a, .current-menu-parent a, .current-menu-ancestor a {
+
+
+
+	color: #cc0000;
+
+
+
+}
+
+
+
+/*----------------CONTENT----------------------*/
+
+
+
+.content {
+
+
+
+	min-height: 300px;
+
+
+
+	background-color: #6ECFF6;
+
+
+
+	overflow: hidden;
+
+
+
+	padding: 20px;
+
+
+
+}
+
+
+
+.content form p {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 18px;
+
+
+
+}
+
+
+
+.content form input[type=submit] {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	background: none;
+
+
+
+	border: none;
+
+
+
+	text-align: left;
+
+
+
+	font-size: 24px;
+
+
+
+	width: auto;
+
+
+
+}
+
+
+
+.content form input[type=submit]:hover {
+
+
+
+	cursor: pointer;
+
+
+
+	color: #cc0000;
+
+
+
+}
+
+
+
+article {
+
+
+
+	padding: 10px;
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+.box130 {
+
+
+
+	width: 130px;
+
+
+
+	float: left;
+
+
+
+	margin-right: 10px;
+
+
+
+}
+
+
+
+.box130 ul {
+
+
+
+	list-style-type: none;
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+.box130 li {
+
+
+
+	font-size: 1.3em;
+
+
+
+	text-indent: 10px;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+.box130 ul ul {
+
+
+
+	display: none;
+
+
+
+}
+
+
+
+.box130 a {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	display: block;
+
+
+
+}
+
+
+
+.box730 {
+
+
+
+	width: 730px;
+
+
+
+	float: left;
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+.box730 li {
+
+
+
+	display: inline;
+
+
+
+}
+
+
+
+.box505 {
+
+
+
+	width: 505px;
+
+
+
+	float: left;
+
+
+
+	overflow: hidden;
+
+
+
+	
+
+
+
+}
+
+
+
+.box355 {
+
+
+
+	width: 355px;
+
+
+
+	margin-right: 10px;
+
+
+
+	float: left;
+
+
+
+}
+
+
+
+ul.products {
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+ul.products h3 {
+
+
+
+	margin: 0px;
+
+
+
+}
+
+
+
+ul.products li {
+
+
+
+	float: left;
+
+
+
+	margin-right: 10px;
+
+
+
+	width: 172px;
+
+
+
+	height: 200px;
+
+
+
+	overflow: hidden;
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+ul.products img {
+
+
+
+	width: 172px;
+
+
+
+	height: auto;
+
+
+
+}
+
+
+
+div.paypal form input {
+
+
+
+	width: auto;
+
+
+
+}
+
+
+
+div.paypal form input[type=image] {
+
+
+
+	border: none;
+
+
+
+}
+
+
+
+ul.post-categories {
+
+
+
+	list-style-type: none;
+
+
+
+	display: inline;
+
+
+
+}
+
+
+
+ul.post-categories li {
+
+
+
+	display: inline;
+
+
+
+}
+
+
+
+ol.search {
+
+
+
+	padding-left: 20px;
+
+
+
+} 
+
+
+
+/*----------------FOOTER----------------------*/
+
+
+
+footer {
+
+
+
+	padding: 10px 0px 10px 0px;
+
+
+
+}
+
+
+
+.designer {
+
+
+
+	font-family: 'eurostile';
+
+
+
+	font-size: 0.75em;
+
+
+
+}
+
+
+
+.dmarro {
+
+
+
+	font-family: 'fixedsys';
+
+
+
+	font-size: 1.5em;
+
+
+
+}
+
+
+
+.box460 {
+
+
+
+	width: 460px;
+
+	overflow: hidden;
+
+	float: left;
+
+
+
+}
+
+
+
+footer ul {
+
+
+
+	list-style-type: none;
+
+
+
+	float: right;
+
+
+
+}
+
+
+
+footer li {
+
+
+
+	float: left;
+
+
+
+	margin-right: 20px;
+
+
+
+}
+
+
+
+footer li img {
+
+
+
+	border: none;
+
+
+
+}
+
+
+
+/*----------------PRINT----------------------*/
+
+
+
+
+
+
+
+@media print {
+
+
+
+header, nav, footer, .box130, iframe {
+
+	display: none;
+
+}
+
+
+
+.content {
+
+	width: 100%;
+
+}
+
+
+
+}
+
+
+
+/*-------------RESPONSIVE----------------------*/
+
+
+
+@media screen and (max-width: 1024px) {
+
+/*----------------HEADER----------------------*/
+
+header .box460 {
+
+	width: 46.938%; /*460/980*/
+
+}
+
+header .margins {
+
+	margin-right: 02.040%; /*20/980*/
+
+}
+
+header input[type=text] {
+
+	margin-right: 04.347%; /*20/460*/
+
+	width: 47.826086956521739130434782608696%; /*220/460*/
+
+	padding: 02.272%; /*5/220*/
+
+	border: 1px solid #000;
+
+}
+
+nav li {
+
+	width: 22.448979591836734693877551020408%;
+
+	margin-right: 2.0408163265306122448979591836735%;
+
+}
+
+nav li:hover {
+
+	background: none;
+
+}
+
+.box355 {
+
+	width: 36.224489795918367346938775510204%;
+
+	margin-right: 1.0204081632653061224489795918367%;
+
+}
+
+.box505 {
+
+	width: 51.530612244897959183673469387755%;
+
+}
+
+.box130 {
+
+	width: 13.265%; /*130/980*/
+
+	margin-right: 02.040%; /*20/980*/
+
+}
+
+.box130 ul {
+
+	margin-bottom: 10px;
+
+}
+
+.box130 li {
+
+	float: none;
+
+	text-indent: 0px;
+
+	font-size: 1em;
+
+}
+
+.box730 {
+
+	width: 74.489%; /*730/980*/
+
+}
+
+ul.cd li {
+
+	margin-bottom: 10px;
+
+}
+
+
+
+footer .box460 {
+
+	width: 46.93877551020408163265306122449%;
+
+}
+
+
+
+footer li {
+
+
+
+	
+
+
+
+}
+
+
+
+.current-menu-item, .current-menu-parent, .current-menu-ancestor {
+
+	background: none;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+footer ul {
+
+	display: none;
+
+}
+
+
+
+footer .box460 {
+
+	width: 90%;
+
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+/*----------------HEADER----------------------*/
+
+header .box460 {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+header .margins {
+
+	margin-right: 0%; 
+
+}
+
+header form {
+
+	float: none;
+
+	width: 100%;
+
+}
+
+header input[type=submit] {
+
+	float: none;
+
+}
+
+header input[type=text] {
+
+	width: 60%; 
+
+}
+
+.responsive {
+
+	display: block;
+
+	background: #d9db4b;
+
+	margin-top: 10px;
+
+	font-size: 1.5em;
+
+	width: 100%;
+
+	float: left;
+
+	padding: 5px 0px 5px 0px;
+
+}
+
+.responsive:hover {
+
+	cursor: pointer;
+
+}	
+
+nav {
+
+	display: none;
+
+	background: #d9db4b;
+
+}
+
+nav ul ul {
+
+	display: block;
+
+	text-indent: 10px;
+
+}
+
+nav li {
+
+	float: none;
+
+	width: 100%;
+
+	text-align: left;
+
+}
+
+nav a {
+
+	font-size: 1.5em;
+
+}
+
+.current-menu-item a, .current-menu-parent a, .current-menu-ancestor a {
+
+
+
+	color: #000;
+
+
+
+}
+.content input, textarea {
+
+	width: 100%;
+
+}
+
+
+
+.box355, .box505 {
+
+	width: 100%;
+
+	margin-right: 0px;
+
+	float: none;
+
+}
+
+.box130 {
+
+	display: none;
+
+}
+
+.box730 {
+
+	width: 100%;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+
+.pages {
+
+	display: block;
+
+	margin-bottom: 10px;
+
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+
+
+header input[type=text] {
+
+	width: 90%; 
+
+}
+
+
+
+}
+
+
+
+/* =WordPress Core
+
+
+
+-------------------------------------------------------------- */
+
+
+
+.alignnone {
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.aligncenter,
+
+
+
+div.aligncenter {
+
+
+
+    display: block;
+
+
+
+    margin: 5px auto 5px auto;
+
+
+
+}
+
+
+
+
+
+
+
+.alignright {
+
+
+
+    float:right;
+
+
+
+    margin: 5px 0 20px 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.alignleft {
+
+
+
+    float: left;
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.aligncenter {
+
+
+
+    display: block;
+
+
+
+    margin: 5px auto 5px auto;
+
+
+
+}
+
+
+
+
+
+
+
+a img.alignright {
+
+
+
+    float: right;
+
+
+
+    margin: 5px 0 20px 20px;
+
+
+
+}
+
+
+
+
+
+
+
+a img.alignnone {
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+a img.alignleft {
+
+
+
+    float: left;
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+a img.aligncenter {
+
+
+
+    display: block;
+
+
+
+    margin-left: auto;
+
+
+
+    margin-right: auto
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption {
+
+
+
+    background: #fff;
+
+
+
+    border: 1px solid #f0f0f0;
+
+
+
+    max-width: 96%; /* Image does not overflow the content area */
+
+
+
+    padding: 5px 3px 10px;
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption.alignnone {
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption.alignleft {
+
+
+
+    margin: 5px 20px 20px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption.alignright {
+
+
+
+    margin: 5px 0 20px 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption img {
+
+
+
+    border: 0 none;
+
+
+
+    height: auto;
+
+
+
+    margin: 0;
+
+
+
+    max-width: 98.5%;
+
+
+
+    padding: 0;
+
+
+
+    width: auto;
+
+
+
+}
+
+
+
+
+
+
+
+.wp-caption p.wp-caption-text {
+
+
+
+    font-size: 11px;
+
+
+
+    line-height: 17px;
+
+
+
+    margin: 0;
+
+
+
+    padding: 0 4px 5px;
+
+
+
+}
